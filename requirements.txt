@@ -1,0 +1,18 @@
+# Core dependencies
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+numpy>=1.21.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+scipy>=1.9.0
+
+# Jupyter notebook (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Additional utilities
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
