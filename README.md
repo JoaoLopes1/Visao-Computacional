@@ -22,7 +22,7 @@ Este projeto implementa um sistema de análise de vídeo que detecta pessoas fal
 
 ```
 ├── detecçao_de_mov.py               # Script principal (detecção de movimento)
-├── deteccao_de_fala.py.py        # Script de detecção de fala (versão final)
+├── deteccao_de_fala.py.py           # Script de detecção de fala (versão final)
 ├── people-talking.mp4               # Vídeo de entrada (pessoas falando)
 ├── people-walking.mp4               # Vídeo de entrada (pessoas caminhando)
 ├── yolov8n.pt                       # Modelo YOLOv8 para detecção de pessoas
