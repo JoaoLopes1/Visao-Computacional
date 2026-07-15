@@ -21,8 +21,8 @@ Este projeto implementa um sistema de análise de vídeo que detecta pessoas fal
 ## 📁 Estrutura do Projeto
 
 ```
-├── Prova 02-B.py                    # Script principal (detecção de movimento)
-├── speech_detection_final.py        # Script de detecção de fala (versão final)
+├── detecçao_de_mov.py               # Script principal (detecção de movimento)
+├── deteccao_de_fala.py.py        # Script de detecção de fala (versão final)
 ├── people-talking.mp4               # Vídeo de entrada (pessoas falando)
 ├── people-walking.mp4               # Vídeo de entrada (pessoas caminhando)
 ├── yolov8n.pt                       # Modelo YOLOv8 para detecção de pessoas
@@ -42,7 +42,7 @@ pip install opencv-python ultralytics numpy librosa soundfile scipy
 ### Detecção de Movimento (Pessoas Caminhando)
 
 ```bash
-python "Prova 02-B.py"
+python "detecçao_de_mov.py"
 ```
 
 Este script processa o vídeo `people-walking.mp4` e gera `people-walking-final.mp4` com:
